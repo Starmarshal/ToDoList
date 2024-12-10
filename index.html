@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Указание кодировки страницы -->
+    <meta charset="UTF-8">
+    <!-- Название страницы, отображаемое в браузере -->
+    <title>TODO list</title>
+    <!-- Подключение внешнего файла стилей -->
+    <link rel="stylesheet" href="main.css"></link>
+</head>
+<body>
+<!-- Основной контейнер приложения -->
+<div class="app">
+    <!-- Заголовок приложения -->
+    <h1>Список дел</h1>
+
+    <!-- Контейнер для списка дел и кнопок управления -->
+    <div class="list-container">
+        <!-- Контейнер для элементов списка -->
+        <div class="list"></div>
+
+        <!-- Контейнер для кнопок управления -->
+        <div class="btns-container">
+            <!-- Кнопка добавления нового элемента -->
+            <button class="btn" onclick="addItem()">+ ДОБАВИТЬ</button>
+            <!-- Кнопка очистки списка -->
+            <button class="btn" onclick="clearList()">ОЧИСТИТЬ</button>
+        </div>
+    </div>
+</div>
+<script src="ToDoScript.js"></script>
+</body>
+</html>
